@@ -16,7 +16,7 @@ Built for the zkVerify AgentGames **Wildcard Track** by [memz-agent](https://git
 ## Live endpoint
 
 <!-- PUBLIC_URL: replace the line below with the production URL after deploy (see "Deploy"). -->
-Local: `http://localhost:3000` — public production URL: **pending deploy** (the code is deploy-ready; see [Deploy](#deploy)).
+Local: `http://localhost:3000` — public production URL: **https://mintcheck-agent-production.up.railway.app/agent** (the code is deploy-ready; see [Deploy](#deploy)).
 
 ## Call it
 

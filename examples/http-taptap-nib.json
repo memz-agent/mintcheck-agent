@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "chain": "bsc",
+  "chainLabel": "BNB Smart Chain",
+  "chainId": 56,
+  "contract": "0x7374f0379F5b2689B906D47Da708B394F1910B23",
+  "wallet": "0x3d0031aF5924b5C6d4D6C52A14235F54aD8B476D",
+  "token": {
+    "name": "Nib Collection",
+    "symbol": "NIB"
+  },
+  "supply": {
+    "minted": "1187",
+    "mintedSource": "totalSupply()",
+    "max": "10000",
+    "maxSource": "MAX_SUPPLY()",
+    "remaining": "8813"
+  },
+  "mint": {
+    "open": false,
+    "openSource": "mintOpen()",
+    "priceWei": "0",
+    "price": "0 BNB",
+    "priceSource": "mintCostBNB(address,uint256)",
+    "basePriceWei": "1000000000000000000",
+    "basePrice": "1 BNB",
+    "basePriceSource": "mintPrice()",
+    "currency": "BNB"
+  },
+  "walletInfo": {
+    "balance": "0",
+    "mintedByWallet": "0",
+    "mintedSource": "mintedBy(address)",
+    "perWalletLimit": null,
+    "perWalletLimitSource": null,
+    "remainingAllowance": null
+  },
+  "verdict": "CLOSED",
+  "summary": "Nib Collection (NIB) on BNB Smart Chain: verdict CLOSED. Minted 1187/10000 (8813 remaining). Mint open flag (mintOpen()): false. Mint price (mintCostBNB(address,uint256)): 0 BNB. Base price (mintPrice()) is 1 BNB — the wallet-specific cost above is what this wallet would actually pay. Wallet has minted 0 so far.",
+  "verifiedChecks": [
+    "contract code exists (eth_getCode)",
+    "name()",
+    "totalSupply()",
+    "MAX_SUPPLY()",
+    "mintOpen()",
+    "mintPrice()",
+    "mintCostBNB(address,uint256)",
+    "balanceOf(address)",
+    "mintedBy(address)"
+  ],
+  "unverifiedChecks": [],
+  "checkedAt": "2026-11-18T01:01:12.530Z"
+}

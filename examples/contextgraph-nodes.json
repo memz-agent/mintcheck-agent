@@ -1,0 +1,61 @@
+{
+  "request": {
+    "chain": "bsc",
+    "contract": "0x08b1323a74530bedd2188b458ebcc856315d8e0f",
+    "wallet": "0x3d0031aF5924b5C6d4D6C52A14235F54aD8B476D"
+  },
+  "responseMs": 1838,
+  "response": {
+    "ok": true,
+    "chain": "bsc",
+    "chainLabel": "BNB Smart Chain",
+    "chainId": 56,
+    "contract": "0x08b1323a74530bedd2188b458ebcc856315d8e0f",
+    "wallet": "0x3d0031aF5924b5C6d4D6C52A14235F54aD8B476D",
+    "token": {
+      "name": "Contextgraph Nodes",
+      "symbol": "NODE"
+    },
+    "supply": {
+      "minted": "2320",
+      "mintedSource": "totalNodes()",
+      "max": null,
+      "maxSource": null,
+      "remaining": null
+    },
+    "mint": {
+      "open": true,
+      "openSource": "mintOpen()",
+      "priceWei": null,
+      "price": null,
+      "priceSource": null,
+      "basePriceWei": null,
+      "basePrice": null,
+      "basePriceSource": null,
+      "currency": "BNB"
+    },
+    "walletInfo": {
+      "balance": "2",
+      "mintedByWallet": null,
+      "mintedSource": null,
+      "perWalletLimit": null,
+      "perWalletLimitSource": null,
+      "remainingAllowance": null
+    },
+    "verdict": "OPEN — PRICE UNVERIFIED",
+    "summary": "Contextgraph Nodes (NODE) on BNB Smart Chain: verdict OPEN — PRICE UNVERIFIED. Minted so far: 2320 (max supply not exposed). Mint open flag (mintOpen()): true.",
+    "verifiedChecks": [
+      "contract code exists (eth_getCode)",
+      "name()",
+      "totalNodes()",
+      "mintOpen()",
+      "balanceOf(address)"
+    ],
+    "unverifiedChecks": [
+      "max supply (tried maxSupply/MAX_SUPPLY/totalMaxSupply/collectionSize)",
+      "mint price (no common price getter answered)",
+      "per-wallet minted count (no common mintedBy/numberMinted getter answered)"
+    ],
+    "checkedAt": "2026-11-18T01:00:54.538Z"
+  }
+}
